@@ -6,6 +6,8 @@
 
 package kt2_ccptpm;
 
+import java.util.Scanner;
+
 /**
  *
  * @author IT Supporter
@@ -16,7 +18,14 @@ public class KT2_CCPTPM {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        String chuoi;
+        Scanner scanner;
+        scanner = new Scanner(System.in);
+		
+	System.out.println("Nhập vào chuỗi bất kỳ: ");
+	chuoi = scanner.nextLine();
+        
+        System.out.println("Chuỗi đã nhập là: " + chuoi);
     }
     
 }
